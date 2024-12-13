@@ -70,28 +70,6 @@ This project focuses on understanding the transcriptional and functional diversi
 
 ---
 
-## Repository Structure
-
-```
-├── Data/
-│   ├── Raw_Data/                # Raw scRNA-seq data files
-│   ├── Processed_Data/          # Processed Seurat objects
-├── Scripts/
-│   ├── Preprocessing.R          # Preprocessing and normalization
-│   ├── Integration.R            # Data integration and Harmony
-│   ├── Trajectory_Analysis.R    # Diffusion maps and Monocle 3
-│   ├── SCENIC_Analysis.R        # Regulatory network analysis
-│   ├── Signature_Scoring.R      # Module scoring and signature analysis
-│   ├── Visualization.R          # PCA, UMAP, heatmaps, and plots
-├── Figures/
-│   ├── PCA_Analysis/            # PCA-related figures
-│   ├── Trajectories/            # Pseudotime and trajectory plots
-│   ├── Regulon_Activity/        # SCENIC regulon heatmaps
-├── README.md                    # Project description and instructions
-└── LICENSE                      # License information
-```
-
----
 
 ## How to Reproduce the Analysis
 
